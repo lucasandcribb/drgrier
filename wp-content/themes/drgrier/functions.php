@@ -448,3 +448,18 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+
+
+
+add_filter( 'show_admin_bar', '__return_false' );
+
+add_filter('the_content', 'remove_img_titles');
+
+// Add Favicon //
+
+function diww_favicon() {
+	echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/favicon.ico" />';
+}
+add_action('wp_head', 'diww_favicon');
+add_action('admin_head', 'diww_favicon');
