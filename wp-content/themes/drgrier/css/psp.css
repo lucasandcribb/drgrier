@@ -1,0 +1,98 @@
+html, body, #page {margin:0px; padding:0px;}
+#page {position:relative; padding:0px; margin:0px; width:100%; max-width:none; background:url('/wp-content/images/backgrounds/background.jpg'); z-index:0;}
+
+
+/***** LANDING PAGE *****/
+/* HEADER */
+header#masthead {position:relative; width:100%; height:301px; padding:0px; text-align:center; background:url('/wp-content/images/backgrounds/header-bg.jpg');
+    background-size:302px 100%; z-index:2;}
+#header-top-border {position:absolute; top:0px; left:0px; width:100%;}
+#header-logo {margin-top:50px;}
+/* NAVIGATION */
+#site-navigation {position:relative; margin:auto; margin-top:40px; width:900px; border:none; height:36px; background:url('/wp-content/images/backgrounds/nav-bg.jpg');
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;}
+#site-navigation .menu-landing-nav-container {border:none; height:36px;}
+#site-navigation .menu-landing-nav-container ul {border:none; height:36px; width:900px;}
+#site-navigation .menu-landing-nav-container ul li {width:177px; height:36px; margin:0px; text-align:center; border:none;}
+#site-navigation .menu-landing-nav-container ul li:hover {
+    -moz-box-shadow:  0px 2px 2px 2px #333;
+    -webkit-box-shadow: 0px 2px 2px 2px #333;
+    box-shadow:     0px 2px 2px 2px #333;
+}
+#site-navigation .menu-landing-nav-container ul li a {height:36px; width:177px; line-height:2.5; font-family:'FreightSans Bold'; font-size:16px; color:#00223d;}
+/* BODY */
+#main {width:900px; position:relative; margin:auto; margin-top:-75px; background:#fff; margin-bottom:50px; z-index:3;
+	-moz-box-shadow:  0px 2px 5px 2px #000;
+    -webkit-box-shadow: 0px 2px 5px 2px #000;
+    box-shadow:     0px 2px 5px 2px #000;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;}
+/* FOOTER */
+#bottom-bg {position:absolute; width:100%; height:200px; background:url('/wp-content/images/backgrounds/footer-bg.jpg');
+	background-size:302px 100%; bottom:0px; left:0px; z-index:2;}
+
+
+
+/* LANDING PAGE CONTENT */
+.landing-page-section {position:relative; float:left; width:900px; min-height:300px; border-bottom:1px solid #00355f;}
+/*.landing-page-section .lp-section-title {position:relative; margin:auto; width:400px; height:44px; text-align:center; color:#fff; font-family:"FreightSans Bold";
+    font-size:36px; vertical-align:middle; padding-top:10px;}*/
+.landing-page-section .lp-section-title {position:relative; margin:auto; width:400px; height:44px; text-align:center; color:#fff; font-family:"FreightSans Bold";
+    font-size:36px; vertical-align:middle; }
+.landing-page-section .title-int-box {position:relative; float:left; width:390px; height:34px; margin-left:3px; margin-top:3px;  
+    border:2px solid #fff;}
+/* LP ABOUT US */
+.landing-page-section.about-us-cont {background:#fafcf3;}
+.landing-page-section .about-us {background:#c8cfb3;}
+.lp-about-us-text {position:relative; float:left; width:350px; padding:50px; font-family:"Adobe Caslon Pro"; font-size:18px; color:#00355f; 
+    text-align:center; line-height:36px; min-height:220px;}
+/* LP SERVICES */
+.landing-page-section.services-cont {background:#faf6fb;}
+.lp-services-title {position:relative; margin:auto;}
+.landing-page-section .lp-services {background:#c2b6c4; position:relative; float:left; width:400px; height:44px; text-align:center; color:#fff; font-family:"FreightSans Bold";
+    font-size:36px; vertical-align:middle; margin-left:250px;}
+.lp-services-text {position:relative; float:left; width:800px; padding:50px; font-family:"Adobe Caslon Pro"; font-size:18px; color:#00355f; 
+    text-align:center; line-height:36px;}
+.lp-contact-text {position:relative; float:left; width:350px; padding:50px; text-align:center; font-size:26px; font-family:"Adobe Caslon Pro"; 
+    line-height:34px; color:#00355f;}
+.lp-contact-text .lp-email, .lp-contact-text .office-hours {font-size:20px; color:#00355f;}
+.lp-map {position:relative; float:left; width:350px; height:275px; padding:50px; text-align:center; margin-top:25px;}
+/* LP OUR OFFICE */
+.landing-page-section.our-office-cont {background:#ebf1f6; }
+.landing-page-section .our-office {background:#a7b2bd;}
+/* LP CONTACT US */
+.landing-page-section.contact-us-cont {/*background:#f6f1f7;*/}
+.landing-page-section .contact-us {background:#667d9a;}
+.landing-page-section .lp-form-subtitle {font-family:"Adobe Caslon Pro"; font-size:20px; color:#00355f; width:100%; text-align:center; margin-top:25px;}
+.landing-page-section .lp-contact-form {width:700px; padding-left:130px; padding-top:25px; padding-bottom:50px;}
+.landing-page-section .lp-contact-form .lp-contact-field {position:relative; float:left; width:300px; margin-right:40px; margin-bottom:15px;}
+.landing-page-section .lp-contact-form label {font-size:18px; font-family:"FreightSans Bold"; color:#00355f; 
+    margin-bottom:5px; position:relative; float:left;}
+.landing-page-section .lp-contact-form .lp-contact-field input {background:#e5eaef; border:1px solid #00355f; width:290px; height:25px; padding:5px;}
+.landing-page-section .lp-contact-form .lp-contact-mssg-field {position:relative; float:left; width:640px; margin-bottom:25px;}
+.landing-page-section .lp-contact-form textarea {background:#e5eaef; border:1px solid #00355f; width:620px; height:80px; padding:10px;}
+.lp-contact-form .wpcf7-submit {background:url('/wp-content/images/buttons/contact-form-button.png') no-repeat; color:#fff; width:150px; height:41px;
+    font-size:26px; font-family:"FreightSans Bold"; float:right; position:relative; margin-bottom:50px; border:none; margin-right:60px;}
+.lp-contact-form .wpcf7-submit:hover {background:#667D9A; color:#fff;
+    -moz-box-shadow:  0px 2px 2px 0px #333;
+    -webkit-box-shadow: 0px 2px 5px 0px #333;
+    box-shadow:     0px 2px 2px 0px #333;
+}
+/* LP DOCUMENTS */
+.landing-page-section.documents-cont {background:#f2f0ed;}
+.landing-page-section .documents {background:#c1ad82;}
+.lp-doc-text {position:relative; float:left; width:400px; margin-left:50px; margin-right:50px; margin-top:25px; text-align:center; line-height:25px; margin-bottom:50px;}
+.lp-docs-list {position:relative; float:left; width:325px; margin-left:25px; margin-top:25px; margin-bottom:50px;}
+.lp-docs-list li {line-height:30px;}
+
+.top-link {position:absolute; bottom:5px; right:5px; font-size:12px; color:#00355f;}
+
+
+
+
+
